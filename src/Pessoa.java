@@ -1,6 +1,7 @@
 public class Pessoa {
     private String nome;
     private int idade;
+    private char sexo;
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -18,8 +19,11 @@ public class Pessoa {
         return this.idade;
     }
 
-    public void imprime(){
-        System.out.println("Nome: " + this.nome + ".");
-        System.out.println("Idade: " + this.idade + ".");
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
+    }
+
+    public char getSexo() {
+        return this.sexo;
     }
 }
