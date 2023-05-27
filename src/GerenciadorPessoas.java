@@ -5,8 +5,6 @@ public class GerenciadorPessoas {
         pessoa.setNome("Ladislau");
         pessoa.setIdade(21);
 
-        System.out.println("Nome: " + pessoa.getNome() + ".");
-        System.out.println("Idade: " + pessoa.getIdade() + ".");
-
+        pessoa.imprime();
     }
 }
